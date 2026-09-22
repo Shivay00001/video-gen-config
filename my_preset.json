@@ -1,0 +1,27 @@
+{
+  "name": "my_preset",
+  "description": "Custom preset: my_preset",
+  "config": {
+    "style_preset": "podcast_dynamic",
+    "theme": "urban",
+    "custom_style": null,
+    "segment_duration": 4.0,
+    "min_segment_duration": 2.0,
+    "max_segment_duration": 5.0,
+    "image_width": 1920,
+    "image_height": 1080,
+    "inference_steps": 20,
+    "guidance_scale": 7.5,
+    "fps": 60,
+    "bitrate": "8000k",
+    "codec": "libx264",
+    "enable_effects": true,
+    "effect_strength": 1.0,
+    "transition_mode": "auto",
+    "beat_sync": false,
+    "energy_reactive": false,
+    "subtitle_style": null,
+    "seed": null,
+    "use_cache": true
+  }
+}

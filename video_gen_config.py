@@ -82,6 +82,14 @@ EXTENDED_STYLES = {
     }
 }
 
+# Base style map merged with EXTENDED_STYLES in ConfigManager.
+# (Was referenced but never defined; empty by default so existing styles work.)
+STYLE_MAP = {}
+
+# Scene theme prompt variations, keyed by theme name (e.g. "nature").
+# (Was referenced but never defined; empty by default.)
+SCENE_THEMES = {}
+
 
 # ============================================================================
 # SCENE EFFECT PRESETS
