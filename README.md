@@ -48,3 +48,10 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 ## 📝 License
 
 This project is licensed under standard terms.
+
+## Run
+```bash
+pip install -r requirements.txt
+python -m pytest tests/ -q
+python video_gen_config.py
+```
